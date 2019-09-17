@@ -1,8 +1,8 @@
 package ar.edu.unahur.obj2;
 
-public class Circulo extends Figura {
+public class Circulo extends Figura  {
 
-    private Integer radio;
+    public Integer radio;
 
     public Circulo(String color, Integer radio) {
         super(color);
@@ -16,4 +16,6 @@ public class Circulo extends Figura {
     public Double perimetro() {
         return 2*Math.PI*radio;
     }
+
+
 }
